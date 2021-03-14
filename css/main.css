@@ -1,0 +1,25 @@
+
+.bandtext {
+  margin-right: 250px;
+  margin-left: 250px;
+}
+.bandtext > p {
+  text-align: justify;
+}
+
+.band {
+  width: 150px;
+}
+
+@media screen and (max-width: 900px) {
+  .bandtext {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .band {
+    width: 250px;
+  }
+}
